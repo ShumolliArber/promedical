@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ApplicationSetting;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
@@ -31,7 +32,7 @@ class InstallController extends Controller
       return view('install.manually');
     }
 
-    if (Schema::hasTable('application_settings'))
+    if (Schema::hasTable('application_settings') && ApplicationSetting::get()->count() > 0)
       return redirect('login');
 
     return view('install.manually');
