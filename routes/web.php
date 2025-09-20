@@ -174,7 +174,7 @@ Route::group(['middleware' => ['auth']], function () {
 
   Route::post('/general', [
     'uses' => 'App\Http\Controllers\GeneralController@edit',
-    'as' => 'general'
+    'as' => 'general.edit'
   ]);
 
   Route::post('/general/localisation', [
