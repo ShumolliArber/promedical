@@ -15,20 +15,20 @@ class ApplicationSetting extends Seeder
     public function run()
     {
         \App\Models\ApplicationSetting::create([
-            'item_name' => 'iDentSoft',
-            'item_short_name' => 'iDentSoft',
-            'item_version' => '2.0',
-            'company_name' => 'ambitiousit',
-            'company_email' => 'bd.ambitiousit@gmail.com',
-            'company_address' => 'Natore, Bangladesh',
-            'developed_by' => 'Ambitiousit',
-            'developed_by_href' => 'http://ambitiousit.net/',
+            'item_name' => 'ProMedical',
+            'item_short_name' => 'ProMedical',
+            'item_version' => '1.0',
+            'company_name' => 'Arber Shumolli',
+            'company_email' => 'arbershumolli@gmail.com',
+            'company_address' => 'Ferizaj, Kosovo',
+            'developed_by' => 'Arber Shumolli',
+            'developed_by_href' => 'https://arbershumolli.com/',
             'developed_by_title' => 'Your hope our goal',
             'developed_by_prefix' => 'Developed by',
-            'support_email' => 'bd.ambitiousit@gmail.com',
+            'support_email' => 'arberhsumolli@gmail.com',
             'language' => 'en',
             'is_demo' => '0',
-            'time_zone' => 'Asia/Dhaka',
+            'time_zone' => 'Eurpoe/Belgrade',
         ]);
     }
 }

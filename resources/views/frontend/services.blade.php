@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
     <meta name="site-url" content="{{ url('/') }}">
-	<title>{{ $ApplicationSetting->item_name }} | @lang('Services') :: ambitiousit.net</title>
+	<title>{{ $ApplicationSetting->item_name }} | @lang('Services') :: arbershumolli.com</title>
 	<!-- Font Awesome Icons -->
 	<link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome-free/css/all.css') }}">
 	<!-- Template CSS -->

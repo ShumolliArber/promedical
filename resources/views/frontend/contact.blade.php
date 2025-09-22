@@ -9,7 +9,7 @@
     <meta name="site-url" content="{{ url('/') }}">
     <meta name="success-title" content="{{ session('success-title') }}">
     <meta name="success-message" content="{{ session('success-message') }}">
-	<title>{{ $ApplicationSetting->item_name }} | @lang('Contact') :: ambitiousit.net</title>
+	<title>{{ $ApplicationSetting->item_name }} | @lang('Contact') :: arbershumolli.com</title>
 	<!-- Font Awesome Icons -->
 	<link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome-free/css/all.css') }}">
 	<!-- Template CSS -->

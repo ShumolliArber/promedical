@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
     <meta name="site-url" content="{{ url('/') }}">
     <meta name="locale" content="{{ session('locale') }}">
-	<title>{{ $ApplicationSetting->item_name }} | @lang('Home') :: ambitiousit.net</title>
+	<title>{{ $ApplicationSetting->item_name }} | @lang('Home') :: arbershumolli.com</title>
 	<!-- Font Awesome Icons -->
 	<link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome-free/css/all.css') }}">
 	<!-- Template CSS -->

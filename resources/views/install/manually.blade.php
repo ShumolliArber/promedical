@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="_token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
-    <title>iDentSoft :: ambitiousit.net</title>
+    <title>ProMedical :: Dental Clinic management software</title>
 
     <!-- Toastr CSS -->
     <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet">

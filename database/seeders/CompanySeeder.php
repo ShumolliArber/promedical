@@ -18,7 +18,7 @@ class CompanySeeder extends Seeder
     public function run()
     {
         $company = Company::create([
-            'domain' => 'identsoft.ambitiousit.net',
+            'domain' => 'promedical.arbershumolli.com',
             'enabled' => 1
         ]);
 

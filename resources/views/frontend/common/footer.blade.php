@@ -73,7 +73,7 @@
     </div>
     <div class="cpy-right py-3">
         <p class="text-center">Copyright © {{ date('Y') }} {{ $ApplicationSetting->item_name }}. All rights reserved | Developed by
-            <a href="https://ambitiousit.net" target="_blank"> ambitiousit.</a>
+            <a href="https://arbershumolli.com" target="_blank"> Arber Shumolli</a>
         </p>
     </div>
     <!-- move top -->
